@@ -1,0 +1,7 @@
+{
+  "token": "GITHUB_TOKEN_HERE",
+  "repos": [
+    ["robertu94", "libpressio"],
+    ["robertu94", "libpressio_opt"]
+  ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "repostats"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyerror = "0.1.7"
+anyhow = { version = "1.0.66" }
+chrono = { version = "0.4.23", features = ["serde"] }
+reqwest = { version = "0.11.13", features= ["json"] }
+serde = { version = "1.0.148", features = ["derive"] }
+serde_json = "1.0.89"
+sqlx = { version = "0.6", features = [ "runtime-tokio-native-tls" , "sqlite" ] }
+tokio = { version = "1", features = ["full"] }
